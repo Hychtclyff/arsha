@@ -1,12 +1,13 @@
 import { Layouts } from "@/common/components/layouts";
-import Dashboard from "@/modules/Dashboard";
+import UserManagement from "@/modules/UserManagement";
 
 const Page = () => {
   return (
     <Layouts>
-      <Dashboard />;
+      <UserManagement />
     </Layouts>
   );
 };
+
 
 export default Page;

@@ -1,10 +1,10 @@
 import { Layouts } from "@/common/components/layouts";
-import Dashboard from "@/modules/Dashboard";
+import SettingsPage from "@/modules/settings";
 
 const Page = () => {
   return (
     <Layouts>
-      <Dashboard />;
+      <SettingsPage />;
     </Layouts>
   );
 };

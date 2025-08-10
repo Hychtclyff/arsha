@@ -1,12 +1,13 @@
 import { Layouts } from "@/common/components/layouts";
-import Dashboard from "@/modules/Dashboard";
+import SumberDanaPage from "@/modules/Income";
 
 const Page = () => {
   return (
     <Layouts>
-      <Dashboard />;
+   <SumberDanaPage />;
     </Layouts>
   );
 };
+
 
 export default Page;
